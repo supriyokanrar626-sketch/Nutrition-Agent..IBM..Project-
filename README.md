@@ -78,7 +78,7 @@ User Input
 
 | Component | Technology |
 |-----------|-----------|
-| **LLM Model** | IBM Granite 3.3-8B Instruct |
+| **LLM Model** | IBM Granite 4.0-8B Instruct |
 | **Model Access** | HuggingFace Inference API |
 | **RAG Vector Store** | ChromaDB |
 | **Embeddings** | sentence-transformers/all-MiniLM-L6-v2 |
@@ -88,35 +88,7 @@ User Input
 
 ---
 
-## 🚀 Getting Started
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/YOUR_USERNAME/nutrition-agent.git
-cd nutrition-agent
-```
-
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Configure API Token
-Get your **free** HuggingFace token from: https://huggingface.co/settings/tokens
-
-Open `config.py` and replace:
-```python
-HF_TOKEN = "YOUR_HUGGINGFACE_TOKEN_HERE"
-```
-
-### 4. Run the Application
-```bash
-streamlit run app.py
-```
-
-Open your browser at: **http://localhost:8501**
-
----
 
 ## ✨ Features
 
