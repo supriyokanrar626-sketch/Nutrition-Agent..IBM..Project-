@@ -9,7 +9,7 @@
 import os
 
 # --- HuggingFace Token (Free) ---
-HF_TOKEN = os.environ.get("HF_TOKEN", "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")
+HF_TOKEN = os.environ.get("HF_TOKEN", "your HuggingFace token")
 
 # --- IBM Granite Model (via HuggingFace) ---
 GRANITE_MODEL_ID = "ibm-granite/granite-3.3-8b-instruct"
