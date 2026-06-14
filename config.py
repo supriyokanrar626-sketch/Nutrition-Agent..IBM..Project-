@@ -12,7 +12,7 @@ import os
 HF_TOKEN = os.environ.get("HF_TOKEN", "your HuggingFace token")
 
 # --- IBM Granite Model (via HuggingFace) ---
-GRANITE_MODEL_ID = "ibm-granite/granite-3.3-8b-instruct"
+GRANITE_MODEL_ID = "ibm-granite/granite-4.0-8b-instruct"
 
 # --- HuggingFace Inference API Endpoint ---
 HF_API_URL = f"https://api-inference.huggingface.co/models/{GRANITE_MODEL_ID}"
